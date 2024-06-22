@@ -2,5 +2,5 @@
 require("config.lazy")
 
 -- load vimrc
--- it is IMPORTANT to load vimrc after LazyVim in case to override settings if conflicts
-vim.cmd.source(vim.fn.stdpath("config") .. "/vimrc.vim")
+-- important: load vimrc after LazyVim to avoid conflicts
+vim.cmd.source(vim.env.HOME .. "/.vimrc")
