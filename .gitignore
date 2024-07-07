@@ -6,3 +6,8 @@ debug
 foo.*
 *.log
 data
+
+# Custom ignores
+.DS_Store
+.neoconf.json
+lazy-lock.json
